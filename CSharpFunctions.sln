@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpFunctions", "CSharpFunctions\CSharpFunctions.csproj", "{EDDDB1E2-179A-4BA4-BBA5-6AB0175F8534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpFunctions", "CSharpFunctions\CSharpFunctions.csproj", "{EDDDB1E2-179A-4BA4-BBA5-6AB0175F8534}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
