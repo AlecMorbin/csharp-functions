@@ -44,17 +44,19 @@ int sommaElementiArray(int[] array)
 {
     int somma = 0;
     for (int i = 0; i < array.Length; i++)
-        somma++;
+        somma = somma + array[i];
     return somma;
 }
 
 
 
-
+Console.WriteLine("Stampo array: ");
 StampaArray(array);
-
+Console.WriteLine("Stampo array con gli elementi elevati al quadrato: ");
 StampaArray(ElevaArrayAlQuadrato(array));
-
+Console.WriteLine("Controllo che l'array sia rimasto incontaminato:");
 StampaArray(array);
-
+Console.WriteLine("Stampo la somma degli elementi nel array: ");
 Console.WriteLine(sommaElementiArray(array));
+Console.WriteLine("Stampo la somma degli elementi nel array che è stato elevato al quadrato: ");
+Console.WriteLine(sommaElementiArray(ElevaArrayAlQuadrato(array)));
